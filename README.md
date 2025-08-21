@@ -1,4 +1,4 @@
-# DataAnalysisProjects
+# Data Analysis Projects
 
 ## Languages Used
 
@@ -10,21 +10,47 @@
 ## Data Analysis Projects
 
 * [Finding Heavy Traffic Indicators on I-94](/GP03_TrafficIndicators/README.md)
-
-Focusing on Python data visualisation, this project analyzes westbound traffic data from the I-94 Interstate highway, using the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository. The goal is to identify key indicators of heavy traffic periods.
+    * Focusing on Python data visualisation, this project analyzes westbound traffic data from the I-94 Interstate highway, using the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository.
+    * The goal is to identify key indicators of heavy traffic periods.
 
 * [Storytelling Data Visualization on Exchange Rates](/GP04_ExchangeRates/README.md)
-
-This project explores and visualizes historical Euro to US Dollar exchange rates using data from the European Central Bank. The notebook demonstrates how to clean, process, and visualize time series data to highlight key financial events, such as the 2007-2008 financial crisis.
+    * This project explores and visualizes historical Euro to US Dollar exchange rates using data from the European Central Bank.
+    * The notebook demonstrates how to clean, process, and visualize time series data to highlight key financial events, such as the 2007-2008 financial crisis.
 
 * [Employee Exit Survey Analysis](/GP05_EmployeeExitSurveys/README.md)
-
-This project analyzes exit survey data from the Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) institute in Queensland, Australia. The goal is to investigate whether employees who resigned were dissatisfied, and how factors like length of service and age relate to resignation due to dissatisfaction.
+    * This project analyzes exit survey data from the Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) institute in Queensland, Australia.
+    * The goal is to investigate whether employees who resigned were dissatisfied, and how factors like length of service and age relate to resignation due to dissatisfaction.
 
 * [NYC High Schools Data Analysis](/GP06_NYCHighSchools/README.md)
-
-This project analyzes data from New York City public high schools to uncover factors that correlate with SAT scores. Multiple datasets are combined, cleaned, and explored to investigate relationships between SAT performance and variables such as school safety, demographics, race, gender, and AP exam participation.
+    * This project analyzes data from New York City public high schools to uncover factors that correlate with SAT scores.
+    * Multiple datasets are combined, cleaned, and explored to investigate relationships between SAT performance and variables such as school safety, demographics, race, gender, and AP exam participation.
 
 * [Star Wars Survey Analysis](/GP07_StarWarsSurvey/README.md)
+    * This project analyzes survey data collected by FiveThirtyEight to explore public opinions on the Star Wars film franchise.
+    * The main question addressed is whether "The Empire Strikes Back" is considered the best Star Wars movie by survey respondents.
 
-This project analyzes survey data collected by FiveThirtyEight to explore public opinions on the Star Wars film franchise. The main question addressed is whether "The Empire Strikes Back" is considered the best Star Wars movie by survey respondents.
+* [Nasdaq Financial Data Analysis](/GP10_Nasdaq/README.md)
+    * This project explores financial metrics for global companies using the Nasdaq Data Link API.
+    * The analysis focuses on the Accrued Expenses Turnover metric, which measures how efficiently companies pay off their accrued liabilities.
+    * Data is retrieved, cleaned, analyzed, and visualized for the period 2011–2015, with comparisons across companies and regions.
+
+* [Investigative Statistical Analysis of Movie Ratings](/GP12_InvestagativeStatisticalAnalysis/README.md)
+    * This project analyzes movie ratings data to investigate potential bias in Fandango's star rating system, as highlighted by Walt Hickey's FiveThirtyEight article.
+    * The analysis compares ratings for films released in 2015 (from Hickey's original dataset) and 2016 (from a follow-up dataset) to determine if Fandango addressed the rounding issue in their ratings.
+
+## SQL Projects
+
+* [Scale Model Cars SQL Analysis](/GP08_CustomerAndProductSQL/README.md)
+    * This project analyzes a relational database for a scale model car business using SQL.
+    * The database contains information about customers, employees, offices, products, orders, payments, and product lines.
+    * The analysis answers key business questions to support inventory management, marketing strategies, and customer acquisition decisions.
+
+* [SQL Window Functions for Northwind Traders](/GP09_SQLNorthwindTraders/README.md)
+    * This project demonstrates advanced SQL analysis using window functions on the Northwind Traders sample database.
+    * The notebook explores sales, customers, employees, and products to answer key business questions and visualize trends.
+
+## Machine Learning
+
+* [Stack Exchange Tag Analysis](/GP11_StackExchangeTags/README.md)
+    * This project analyzes Data Science Stack Exchange questions to identify the most popular topics and trends in data science.
+    * By examining tags, view counts, and question frequency, the analysis helps determine what content is most sought after by the data science community.
