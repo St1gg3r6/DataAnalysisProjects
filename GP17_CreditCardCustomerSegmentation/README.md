@@ -1,44 +1,59 @@
-# Credit Card Customer Segmentation
+# Customer Value & Behaviour Segmentation
 
-## Overview
+## Credit Card Portfolio Case Study
 
-This project segments a credit card company's customers into distinct groups using the K-means clustering algorithm. The goal is to help the company apply targeted business strategies for each customer segment based on their demographic and behavioral characteristics.
+### Business Problem
 
-## Data Source
+A credit card provider required improved visibility into customer behavioural patterns to support targeted marketing, risk management, and product strategy. The objective was to identify distinct customer segments based on income, transaction behaviour, credit utilisation, and engagement.
 
-- `customer_segmentation.csv` provided by the company's data engineering team.
-- Features include: customer ID, age, gender, dependents, education level, marital status, estimated income, months as customer, relationship count, inactivity, credit limit, transaction amount, transaction count, and utilization ratio.
+⸻
 
-## Approach
+### Objectives
 
-- **Data Exploration:** Initial inspection, correlation analysis, and visualization of feature distributions.
-- **Feature Engineering:** Transformation of categorical variables (`gender`, `education_level`, `marital_status`) for modeling.
-- **Scaling:** Standardization of features for clustering.
-- **Modeling:** Application of K-means clustering, selection of optimal cluster count using inertia analysis.
-- **Analysis:** Assignment of cluster labels, visualization of cluster characteristics, and summary of key differences between groups.
+	•	Identify meaningful customer segments using behavioural and financial attributes
+	•	Analyse transaction activity and credit utilisation patterns
+	•	Assess value tiers based on spend and engagement
+	•	Support data-driven targeting and retention strategies
 
-## Key Findings
+⸻
 
-- Six customer segments were identified, each with distinct profiles in terms of income, credit limit, transaction behavior, and demographics.
-- Example highlights:
-  - Cluster 5: High income, high credit limit, mostly male, lower spend per transaction.
-  - Cluster 2: Low income, high card use, mostly married and female.
-  - Cluster 6: Low earners, low credit limit, mostly single females.
+### Analytical Approach
 
-## Notebook
+	•	Exploratory data analysis and feature correlation review
+	•	Encoding of categorical variables
+	•	Standardisation of behavioural and financial metrics
+	•	K-Means clustering with optimal cluster selection via inertia analysis
+	•	Cluster profiling and comparative behavioural analysis
 
-View [Credit Card Customer Segmentation](/GP17_CreditCardCustomerSegmentation/Credit%20Card%20Customer%20Segmentation.ipynb) Notebook.
+⸻
 
-## Requirements
+### Key Insights
 
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- Jupyter Notebook
+Six distinct customer segments were identified, characterised by differences in:
 
-## Reference
+	•	Income levels
+	•	Credit limit allocation
+	•	Transaction frequency
+	•	Spend intensity
+	•	Utilisation ratio
 
-- K-means clustering algorithm documentation: [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+Example findings:
+
+	•	A high-income, high-limit segment demonstrated strong credit capacity but lower relative transaction intensity — indicating potential cross-sell opportunity.
+	•	A lower-income, high-usage segment showed elevated utilisation and engagement — suggesting retention importance but potential credit risk exposure.
+	•	Low-engagement segments exhibited minimal activity and lower transaction volume — indicating reactivation opportunity.
+
+⸻
+
+### Commercial Implications
+
+	•	Prioritise high-value segments for loyalty and premium product offerings
+	•	Develop targeted engagement strategies for under-utilised high-capacity customers
+	•	Monitor high-utilisation segments for risk management considerations
+	•	Use segment profiles to tailor marketing and credit strategies
+
+⸻
+
+#### Tools
+
+Python | Pandas | Scikit-Learn | K-Means Clustering | Data Visualisation
