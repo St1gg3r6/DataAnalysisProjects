@@ -1,34 +1,44 @@
-# Nasdaq Financial Data Analysis
+# Working Capital Efficiency & Liability Management Analysis
 
-## Overview
+## Nasdaq Financial Data Case Study
 
-This project explores financial metrics for global companies using the Nasdaq Data Link API. The analysis focuses on the Accrued Expenses Turnover metric, which measures how efficiently companies pay off their accrued liabilities. Data is retrieved, cleaned, analyzed, and visualized for the period 2011–2015, with comparisons across companies and regions.
+### Business Context
 
-## Contents
+Working capital efficiency plays a critical role in liquidity management and operational stability. This analysis evaluates Accrued Expenses Turnover across publicly listed companies to assess short-term liability management practices and regional variation in financial discipline.
 
-- **API Integration:** Retrieve financial statement data from the Nasdaq Data Link API (`MER/F1` table).
-- **Data Cleaning:** Select relevant columns and filter for the Accrued Expenses Turnover metric.
-- **Feature Engineering:** Map country codes to full names and rename columns for clarity.
-- **Trend Analysis:** Visualize changes in Accrued Expenses Turnover over time for individual companies.
-- **Regional Analysis:** Compare average Accrued Expenses Turnover across countries.
+⸻
 
-## Key Findings
+### Objectives
+	•	Analyse Accrued Expenses Turnover as a proxy for working capital efficiency
+	•	Evaluate stability of liability management over time (2011–2015)
+	•	Benchmark firms and regions using comparable financial metrics
+	•	Identify variability in turnover patterns across markets
 
-- Most companies maintained relatively constant Accrued Expenses Turnover from 2011 to 2015, with some showing significant fluctuations.
-- Bahamas had the highest average Accrued Expenses Turnover; USA and Great Britain were similar, while other regions had lower averages.
+⸻
 
-## Notebook
+### Analytical Approach
+	•	API-based financial statement data extraction (Nasdaq Data Link – MER/F1 table)
+	•	Data cleaning and metric filtering
+	•	Time-series trend analysis across selected firms
+	•	Cross-country average comparison
+	•	Visual benchmarking of company-level turnover
 
-View [NasdaqFinancialDataAnalysis](/GP10_Nasdaq/NasdaqFinancialDataAnalysis.ipynb) Jupyter Notebook.
+⸻
 
-## Requirements
+### Key Insights
+	•	Most firms demonstrated relatively stable turnover ratios across the observed period
+	•	Observable variation across companies highlighted differing liability management practices
+	•	Regional aggregation revealed measurable differences in average turnover performance
 
-- Python 3.x
-- pandas
-- matplotlib
-- requests
-- Jupyter Notebook
+⸻
 
-## Reference
+### Commercial Implications
+	•	Consistent working capital management supports predictable cash flow planning
+	•	Cross-market benchmarking enables comparative financial assessment
+	•	Turnover analysis provides insight into operational efficiency and short-term financial discipline
 
-- [Nasdaq Data Link API Documentation](https://docs.data.nasdaq.com/docs/in-depth-usage-1)
+⸻
+
+#### Tools
+
+Python | API Integration | Financial Ratio Analysis | Time-Series Analysis | Data Visualisation
